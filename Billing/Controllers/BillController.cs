@@ -11,8 +11,8 @@ namespace Billing.Controllers
     public class BillController : Controller
     {
         static BillTemplate billTemplateObj = new Models.ViewModel.BillTemplate();
-        //
-        // GET:  /Bill/
+        
+        // GET:/Bill/
         List<SelectListItem> service = new List<SelectListItem>();
         List<SelectListItem> billParticular = new List<SelectListItem>();
         List<SelectListItem> billPaulOffset = new List<SelectListItem>();
